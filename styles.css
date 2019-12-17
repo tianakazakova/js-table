@@ -1,0 +1,87 @@
+#creation {
+	width: 200px;
+	margin: auto;
+}
+
+#functions {
+	overflow: hidden;
+}
+
+div.param {
+	float: left;
+	width: 150px;
+}
+
+div.param button {
+	width: 100%;
+	font-size: 8px;
+	height: 15px;
+}
+
+input {
+	width: 146px;
+}
+
+input[maxlength="3"] {
+	width: 64px;
+}
+
+input.c-inp {
+	width: 196px;
+}
+
+button {
+	padding: 0;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+div.small {
+	width: 72px;
+}
+
+div.small button {
+	height: 36px;
+	font-size: 14px;
+}
+
+button.c-btn {
+	margin-top: 20px;
+	width: 200px;
+}
+
+button.t-btn {
+	margin-top: 5px;
+	width: 90px;
+	height: 15px;
+	font-size: 10px;
+}
+
+textarea {
+	margin: auto;
+	display: block;
+  resize: none;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	margin-top: 30px;
+}
+
+td {
+	border: 2px solid #000;
+	padding: 10px;
+	text-align: center;
+	width: 106px;
+	height: 56px;
+}
+
+select {
+	margin-left: -4px;
+	height: 21px;
+	width: 82px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<title>Table</title>
+	  	<meta charset="utf-8">
+	  	<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div id="creation">
+			<p>Enter width:</p>
+			<input class="c-inp" type="text" id="width">
+			<p>Enter height:</p>
+			<input class="c-inp" type="text" id="height">
+			<button class="c-btn" type="button" onclick="createTable()">Create table</button>
+		</div>
+		<div id="functions" hidden="true">
+      <div class="param">
+        <input type="text" maxlength="3" size="5" oninput="changeButton()"></input>
+        <select onchange="changeButton()">
+          <option value="none">none</option>
+          <option value="dotted">dotted</option>
+          <option value="dashed">dashed</option>
+          <option value="solid">solid</option>
+          <option value="double">double</option>
+        </select>
+        <button id="border-btn" type="button" onclick="tableSetBorder()">Set border</button>
+      </div>
+      <div class="param">
+        <input type="text" id="tablename"></input>
+        <button type="button" onclick="tableSetName(this.parentElement.children[0].value)">Set table name</button>
+      </div>
+      <div class="param">
+        <input type="number"></input>
+        <button type="button" onclick="tableRemoveRow(this.parentElement.children[0].value)">Remove row</button>
+      </div>
+      <div class="small param" onclick="MAGIC()">
+        <button type="button">Magic</button>
+      </div>
+      <div class="small param" onclick="tableDelete()">
+        <button type="button">Delete</button>
+      </div>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
